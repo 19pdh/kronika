@@ -6,4 +6,6 @@ Przed tobą znajduje się kronika 19 PDH "Puszcza" w postaci plików źródłowy
 
 Chcesz dodać wpis do kroniki? Albo może znalazłeś literówkę? Prześlij na adres patryk.niedzwiedzinski@zhr.pl
 
-Możesz również edytować bezpośrednio tak jak każde inne repozytorium na GitHubie (fork -> PR). Pamiętaj przy tym żeby przestrzegał naszych [zasad](./CONTRIBUTING.md).
+<s>Możesz również edytować bezpośrednio tak jak każde inne repozytorium na GitHubie (fork -> PR). Pamiętaj przy tym żeby przestrzegał naszych [zasad](./CONTRIBUTING.md).</s>
+
+All rights reserved. You cannot modify or redistribute these posts without explicit permission from the author.
