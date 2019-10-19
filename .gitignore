@@ -1,0 +1,6 @@
+.DS_Store
+
+# testing
+node_modules
+package-lock.json
+*.in
