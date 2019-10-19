@@ -9,7 +9,7 @@ jobs:
   test:
     <<: *defaults
     steps:
-      - checkout
+      - checkout:
           path: ~/repo
 
       # Download and cache dependencies
