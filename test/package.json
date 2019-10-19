@@ -1,0 +1,16 @@
+{
+  "name": "tester",
+  "version": "1.0.0",
+  "description": "Checks if articles are write in right way",
+  "main": "check.js",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "kronikarz": "^1.0.0"
+  },
+  "scripts": {
+    "test": "./validator.sh"
+  },
+  "keywords": [],
+  "author": "Patryk Niedźwiedziński",
+  "license": "ISC"
+}
