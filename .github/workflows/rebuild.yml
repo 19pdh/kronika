@@ -1,0 +1,21 @@
+name: Rebuild page
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Rebuild https://puszcza.netlify.com
+      uses: wei/curl@v1
+      with:
+        args: -X POST -d {} https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_MASTER }}
+    - name: Rebuild https://develop--puszcza.netlify.com
+      uses: wei/curl@v1
+      with:
+        args: -X POST -d {} https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_DEVELOP }}
