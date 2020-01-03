@@ -1,3 +1,8 @@
+---
+title: Sylwester Bractwa Wędrowniczego
+author: Patryk Niedźwiedziński
+---
+
 # Sylwester Bractwa Wędrowniczego
 
 01.01.2019 | Patryk Niedźwiedziński
