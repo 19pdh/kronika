@@ -5,9 +5,10 @@
   "main": "check.js",
   "dependencies": {
     "esm": "^3.2.25",
-    "kronikarz": "^1.0.0"
+    "kronikarz": "^2.0.0"
   },
   "scripts": {
+    "build": "mkdir -p ../api/api && touch ../api/api/posts.json && node -r esm build.js",
     "test": "./validator.sh"
   },
   "keywords": [],
