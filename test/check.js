@@ -1,11 +1,11 @@
-import readline from "readline";
-import { parsePost } from "kronikarz/dist/parsePost";
+import readline from 'readline';
+import Post from 'kronikarz/dist/Post';
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
-rl.question("", filePath => {
-  parsePost(filePath);
+rl.question('', (filePath) => {
+  new Post(filePath);
 });
