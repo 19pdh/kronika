@@ -8,7 +8,7 @@
     "kronikarz": "^2.0.0"
   },
   "scripts": {
-    "build": "./test/build.sh",
+    "build": "./build.sh",
     "test": "./validator.sh"
   },
   "keywords": [],
