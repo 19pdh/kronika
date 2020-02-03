@@ -33,7 +33,7 @@ collections:
       - label: 'Data'
         name: date
         widget: datetime
-        dateFormat: DD.MM.YYY
+        dateFormat: DD.MM.YYYY
         timeFormat: false
         required: true
 
