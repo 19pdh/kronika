@@ -3,7 +3,7 @@ backend:
 
 publish_mode: editorial_workflow
 display_url: https://puszcza.netlify.com
-site_url: https://puszcza.netlfiy.com
+site_url: https://puszcza.netlify.com
 locale: 'pl'
 
 media_folder: 'static/media'
@@ -41,6 +41,11 @@ collections:
       - label: 'Kategorie/Tagi'
         name: category
         widget: list
+        required: false
+
+      - label: 'Zdjęcie okładki - link'
+        name: image
+        widget: string
         required: false
 
       - label: 'Wpis'
