@@ -1,6 +1,7 @@
 ---
 title: Pierwszy biwak Puszczy
 preview: Pierwszy biwak Puszczy
+date: 2019-11-24 00:00:00 UTC
 author: Filip Olszewski
 image: https://lh3.googleusercontent.com/rQ57wRAqrn2R7vs8oE1Jd30cvgg55-iT1Tez_wqJ3DL_QcD4jZneRaS0gQnj0tD7iFDSdoBkEd_FQHW_heNIvOnQWxGUK2k72HBuh5hujOUiTBGDDJAIJ5bQN92YBquZf8Tgd0Y1=w1262-h946-no
 ---

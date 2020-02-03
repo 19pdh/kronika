@@ -1,11 +1,12 @@
 ---
 title: Sylwester Bractwa Wędrowniczego
+date: 2020-01-01 00:00:00 UTC
 author: Patryk Niedźwiedziński
 ---
 
 # Sylwester Bractwa Wędrowniczego
 
-01.01.2019 | Patryk Niedźwiedziński
+01.01.2020 | Patryk Niedźwiedziński
 
 Nasz Zastęp Zastępowych został zaproszony na sylwestra organizowanego przez
 Bractwo Wędrownicze. Ostatecznie pojechałem ja i Kiernik, a Joda dołączył do nas
