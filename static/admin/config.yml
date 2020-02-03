@@ -18,7 +18,7 @@ collections:
     folder: 'wpisy'
     slug: '{{filename}}'
     path: '{{year}}/{{month}}/{{day}}/{{filename}}.{{extension}}'
-    preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
+    preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{filename}}'
     preview_path_date_field: 'date'
     editor:
       preview: false
