@@ -43,6 +43,6 @@ collections:
         required: false
 
       - label: 'Wpis'
-        name: content
+        name: body
         widget: markdown
         required: true
