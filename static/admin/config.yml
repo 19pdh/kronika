@@ -14,7 +14,8 @@ media_library:
 collections:
   - name: posts
     label: 'Wpisy'
-    folder: 'wpisy/{{year}}/{{month}}/{{day}}/{{slug}}'
+    folder: 'wpisy'
+    path: '{{year}}/{{month}}/{{day}}/{{slug}}'
     preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
     fields:
       - label: 'Tytuł'
