@@ -17,7 +17,7 @@ collections:
     label: 'Wpisy'
     folder: 'wpisy'
     path: '{{year}}/{{month}}/{{day}}/{{slug}}'
-    preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
+    preview_path_date_field: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
     editor:
       preview: false
     fields:
