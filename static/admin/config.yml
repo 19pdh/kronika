@@ -6,11 +6,7 @@ display_url: https://puszcza.netlify.com
 site_url: https://puszcza.netlify.com
 locale: 'pl'
 
-media_folder: 'static/media'
-media_library:
-  name: uploadcare
-  config:
-    publicKey: demopublickey
+media_folder: 'static/api'
 
 collections:
   - name: posts
