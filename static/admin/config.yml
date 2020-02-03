@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+
+publish_mode: editorial_workflow
+display_url: https://puszcza.netlify.com
+locale: 'pl'
+
+collections:
+  - name: posts
+    folder: 'wpisy/{{year}}/{{month}}/{{day}}/{{slug}}'
+    preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
+    fields:
+      - label: 'Tytuł'
+        name: title
+        widget: string
+
+      - label: 'Autor'
+        name: author
+        widget: string
+
+      - label: 'Data'
+        name: date
+        widget: datetime
+        dateFormat: DD.MM.YYY
+        timeFormat: false
+
+      - label: 'Kategorie/Tagi'
+        name: category
+        widget: list
+
+
+editor:
+  preview: false
