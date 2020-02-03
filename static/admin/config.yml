@@ -17,25 +17,32 @@ collections:
     folder: 'wpisy'
     path: '{{year}}/{{month}}/{{day}}/{{slug}}'
     preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
+    editor:
+      preview: false
     fields:
       - label: 'Tytuł'
         name: title
         widget: string
+        required: true
 
       - label: 'Autor'
         name: author
         widget: string
+        required: true
 
       - label: 'Data'
         name: date
         widget: datetime
         dateFormat: DD.MM.YYY
         timeFormat: false
+        required: true
 
       - label: 'Kategorie/Tagi'
         name: category
         widget: list
+        required: false
 
-
-editor:
-  preview: false
+      - label: 'Wpis'
+        name: content
+        widget: markdown
+        required: true
