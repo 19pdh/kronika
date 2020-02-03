@@ -3,6 +3,7 @@ backend:
 
 publish_mode: editorial_workflow
 display_url: https://puszcza.netlify.com
+site_url: https://puszcza.netlfiy.com
 locale: 'pl'
 
 media_folder: 'static/media'
