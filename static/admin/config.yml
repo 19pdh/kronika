@@ -16,8 +16,9 @@ collections:
   - name: posts
     label: 'Wpisy'
     folder: 'wpisy'
-    path: '{{year}}/{{month}}/{{day}}/{{slug}}'
-    preview_path_date_field: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
+    path: '{{year}}/{{month}}/{{day}}/{{filename}}.{{extension}}'
+    preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
+    preview_path_date_field: 'date'
     editor:
       preview: false
     fields:
