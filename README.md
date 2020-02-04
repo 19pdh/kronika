@@ -1,4 +1,4 @@
-![](static/19pdh.png)
+![](static/19pdh-small.png)
 
 # Kronika 19 Poznańskiej Drużyny Harcerzy "Puszcza"
 
