@@ -11,6 +11,7 @@ media_folder: 'static/api'
 collections:
   - name: posts
     label: 'Wpisy'
+    label_singular: 'wpis'
     folder: 'wpisy'
     slug: '{{title}}'
     path: '{{year}}/{{month}}/{{day}}/{{slug}}'
