@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
 
-#publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 display_url: https://puszcza.netlify.com
 site_url: https://puszcza.netlify.com
 locale: 'pl'
