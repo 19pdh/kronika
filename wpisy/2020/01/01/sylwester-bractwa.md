@@ -1,7 +1,7 @@
 ---
 title: Sylwester Bractwa Wędrowniczego
-date: 2020-01-01 00:00:00 UTC
 author: Patryk Niedźwiedziński
+date: 2020-01-01T00:00:00.000Z
 ---
 
 # Sylwester Bractwa Wędrowniczego
