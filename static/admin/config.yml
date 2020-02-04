@@ -4,6 +4,7 @@ backend:
 publish_mode: editorial_workflow
 display_url: https://puszcza.netlify.com
 site_url: https://puszcza.netlify.com
+logo_url: 19pdh.png
 locale: 'pl'
 
 media_folder: 'static/api'

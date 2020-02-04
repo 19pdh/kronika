@@ -1,3 +1,5 @@
+![](static/19pdh.png)
+
 # Kronika 19 Poznańskiej Drużyny Harcerzy "Puszcza"
 
 Przed tobą znajduje się kronika 19 PDH "Puszcza" w postaci plików źródłowych. Kronika napisana jest w plikach [markdown](https://www.markdownguide.org/getting-started), które następnie są renderowane do html'u i wstawiane na naszą stronę https://puszcza.netlify.com .
