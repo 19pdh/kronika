@@ -7,7 +7,7 @@ site_url: https://puszcza.netlify.com
 logo_url: /19pdh.png
 locale: 'pl'
 
-media_folder: 'static/api'
+media_folder: 'static/s'
 
 collections:
   - name: posts
