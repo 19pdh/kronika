@@ -8,7 +8,7 @@
     "kronikarz": "^2.0.0"
   },
   "scripts": {
-    "build": "mkdir -p ../static/api && touch ../static/api/posts.json && node -r esm build.js && cp _headers ../static",
+    "build": "mkdir -p ../static/api && touch ../static/api/posts.json && node -r esm build.js && cp _headers ../static && cp -r ../wpisy ../static/files",
     "test": "./validator.sh"
   },
   "keywords": [],
