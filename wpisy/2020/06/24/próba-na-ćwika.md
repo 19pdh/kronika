@@ -25,9 +25,7 @@ Rozpocząłem przygotowania od telefonu do mojego zaufanego człowieka ds. okoł
 2. "Czy w szkołach publicznych powinien być ujednolicony system oceniania, aby wyrównać nierówności w progach ocen końcowych, które liczą się potem jako pojedyncze punkty do rekrutacji, które najczęściej ważą o wszystkim?"
 
 Wywiad:
-<audio controls>
-	<source src="https://api-puszcza.netlify.app/files/2020/06/24/wywiad-z-prezydentem.mp3" type="audio/mpeg">
-</audio>
+![](https://api-puszcza.netlify.app/files/2020/06/24/wywiad-z-prezydentem.mp3)
 
 
 ## Część 4: Epilog
