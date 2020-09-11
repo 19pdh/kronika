@@ -9,6 +9,10 @@ category:
 
 <code>
 
+# "Puszcza"
+
+Kiep & JP
+
 ## SCENA I - POCZĄTEK
 
 (Indian i Puszcza)
@@ -88,12 +92,10 @@ tylko od twojego planu cię odwołać!
 Ależ o czym wy mówicie, \
 wszak wszystko jest znakomicie. 
 
-**POSŁANIEC 2**
-Wielki most nad Wielką Wodą, \
+**POSŁANIEC 2** Wielki most nad Wielką Wodą, \
 do świętego miejsca jest przeszkodą!
 
-**GUBERNATOR**
-Aaa Wy o tym, promenada jest potrzebna, \
+**GUBERNATOR** Aaa Wy o tym, promenada jest potrzebna, \
 jak podwieczorek po obiedzie, to rzecz pewna i niezbędna. \
 To uczynek jest dla ludu, a nie żadna ściema, \
 taka wola Nieba z nią się zawsze zgadzać trzeba!
@@ -158,20 +160,16 @@ Dziś nie jemy.
 **INDIANIN 1** \
 Więc znów czary?
 
-**SZAMAN**
-Dawać mi tu tamte gary!
+**SZAMAN** Dawać mi tu tamte gary!
 
-**INDIANIN 1**
-Posłuchaj szamanie drogi, \
+**INDIANIN 1** Posłuchaj szamanie drogi, \
 by nie było niedomówień, \
 twój czar gniewny jest i srogi, \
 a my tu nie chcemy umrzeć!
 
-**SZAMAN**
-Co to znaczy?
+**SZAMAN** Co to znaczy?
 
-**INDIANIN 2**
-Nie inaczej, \
+**INDIANIN 2** Nie inaczej, \
 twoje gusła średniowieczne \
 zdają się być niebezpieczne, \
 z gara idą czarne buchy\
@@ -189,40 +187,29 @@ Nie ma strachu.
 **INDIANIN 2**\
 Zobaczymy. 
 
-**SZAMAN** 
-Weź składniki, policzymy.
+**SZAMAN**  Weź składniki, policzymy.
 
-
-**SZAMAN**
-Dajcie mi menażkę szyszek, \
+**SZAMAN** Dajcie mi menażkę szyszek, \
 4 gwoździe, kuroliszek,\
 2 ziarnka białego ryżu.
 
-**INDIANIN 3**
-Nie ma ryżu.
+**INDIANIN 3** Nie ma ryżu.
 
-**SZAMAN**
-Daj anyżu, \
+**SZAMAN** Daj anyżu, \
 zwinięty w brązowe chusty.
 
-**INDIANIN 3**
-Panie, nasz spichlerz jest pusty.
+**INDIANIN 3** Panie, nasz spichlerz jest pusty.
 
-**SZAMAN**
-Jeszcze jeden ser półtłusty
+**SZAMAN** Jeszcze jeden ser półtłusty
 
-**INDIANIN 3**
-To są żarty?
+**INDIANIN 3** To są żarty?
 
-**SZAMAN**
-W plastrach lub na tarce starty.
+**SZAMAN** W plastrach lub na tarce starty.
 
-**INDIANIN 3**
-Jeszcze jakieś masz życzenia, \
+**INDIANIN 3** Jeszcze jakieś masz życzenia, \
 które są nie do spełnienia?
 
-**SZAMAN**
-Daj spis warty
+**SZAMAN** Daj spis warty
 
 **INDIANIN 3**\
 Czary to czy żarty? 
@@ -248,21 +235,17 @@ nim kości w grobach złożyły.
 **DUCHY**\
 My wezwane przybywamy\
 i żądamy odpowiedzi, \
-Co? Jak? Gdzie?
-Dlaczego? Kiedy? \
+Co? Jak? Gdzie? Dlaczego? Kiedy? \
 Mówcie tak jak na spowiedzi.
 
-**SZAMAN** 
-Nawrócić trzeba niewiernych, \
+**SZAMAN**  Nawrócić trzeba niewiernych, \
 sprowadzić na dobrą drogę, \
 zaprzestać środków mizernych, \
 dać ich duszom zapomogę.
 
-**UPIÓR**
-Podać rękę czy dać nogę?
+**UPIÓR** Podać rękę czy dać nogę?
 
-**SZAMAN**
-Sprawa pilna jest niezmiernie, \
+**SZAMAN** Sprawa pilna jest niezmiernie, \
 bo człek blady jak owsianka \
 zachowuje się bezczelnie\
 i już od samego ranka\
@@ -270,14 +253,12 @@ bierze cegły, bierze kielnie \
 i buduje wielkie domy \
 burząc pięknych drzew korony.
 
-**UPIÓR**
-Podejdź więc duchu wyblakły \
+**UPIÓR** Podejdź więc duchu wyblakły \
 niechaj w przyszłość was zabiorę, \
 czeka was skok w przestrzeń nagły, \
 zobaczcie swą nędzną dole!
 
-**NARRATOR**
-Wszędzie bloki i wieżowce \
+**NARRATOR** Wszędzie bloki i wieżowce \
 trochę dziwnie acz ciekawe, \
 Gdzie są lasy? Gdzież są owce? \
 Lecz to nie jest w tym najgorsze, \
@@ -304,48 +285,39 @@ lub chochlik w skorupie zamkniony \
 Pojawia się postać milcząca lecz dumna \
 skupiona jak wiedźmin na trakcie, \
 choć jej postura jak u napoleona \
-to pręży pierś jak harcerz na warcie
-Choć mały ciałem to lis podstępny \
+to pręży pierś jak harcerz na warcie Choć mały ciałem to lis podstępny \
 co wiele zrobi dla zysku,\
 jest sprzedawczykiem, łotrzykiem złodziejem\
 i panem wsi wielu lub kilku.
 
-**SZAMAN**
-Zebrały się czarne chmury, wkiernicz czeka nas ponury.
+**SZAMAN** Zebrały się czarne chmury, wkiernicz czeka nas ponury.
 
-**NARRATOR**
-W otoczeniu wiernej gwardii \
+**NARRATOR** W otoczeniu wiernej gwardii \
 idzie straszny gubernator, \
 dwaj dryblasi muskularni. \
 Pośrodku eksterminator.
 
-**GUBERNATOR**
-Nie wiem co mnie wciąż tu trzyma, \
+**GUBERNATOR** Nie wiem co mnie wciąż tu trzyma, \
 na północy wichry śniegi, \
 ani rusz nadchodzi zima, \
 zawrzyjmy ciaśniej szeregi.
 
-**ROBOTNIK 1**
-Panie..
+**ROBOTNIK 1** Panie..
 
-**GUBERNATOR**
-Co ja widzę?! \
+**GUBERNATOR** Co ja widzę?! \
 Tempo pracy znacznie spadło, \
 patrzę i się wami brzydzę.
 
-**ROBOTNIK 1**
-Mieliśmy wizje magiczną \
+**ROBOTNIK 1** Mieliśmy wizje magiczną \
 pracować dalej nie chcemy, \
 bo jak wszystkie drzewa znikną, \
 to my wszyscy poginiemy!
 
-**GUBERNATOR**
-Nie chcę słyszeć ani słowa, \
+**GUBERNATOR** Nie chcę słyszeć ani słowa, \
 boli mnie od tego głowa. \
 Drewno? Co z drewna wynika? \
 Ciepła woda z parownika, \
-raszki i wygodne prycze…
-tyle rzeczy, że nie zliczę!
+raszki i wygodne prycze… tyle rzeczy, że nie zliczę!
 
 **ROBOTNIK 1** \
 Z drewna można maszty robić. 
@@ -364,24 +336,20 @@ zaszkodziło to mej wenie, \
 jeszcze trochę czasu mieli by odprawić znów rytuał, \
 wzięli halucynogeny lecz wódz prace ich zatrzymał!
 
-**WÓDZ**
-Dziadów już nie odprawiamy, \
+**WÓDZ** Dziadów już nie odprawiamy, \
 szaman zmęczony śmiertelnie,\
 wdychał trujące opary, \
 myślami jest w świętym lesie!
 
-**SZAMAN**
-Ja decyzję już podjąłem \
+**SZAMAN** Ja decyzję już podjąłem \
 tak jak Kmicic bronił zamku, \
 ja bronić puszczy zawziąłem, \
 więc posłuchaj mnie mopanku, \
-wzywam duchy bo tak trzeba
-by powstrzymać los straszliwy, \
+wzywam duchy bo tak trzeba by powstrzymać los straszliwy, \
 jeszcze dziś pójdę do nieba, \
 ale puszcze ocalimy!
 
-**NARRATOR**
-No bo w końcu bez dramatu\
+**NARRATOR** No bo w końcu bez dramatu\
 jak z powieści szekspirowskiej, \
 odbiegając od tematu \
 męki, śmierci i bolączki, \
@@ -391,7 +359,7 @@ uznawane są za wieczne \
 niezależnie od majątku, \
 wieku oraz treści wątków.
 
-## SCENA VIII - PRZEMIANA GUBERNATORA 
+## SCENA VIII - PRZEMIANA GUBERNATORA
 
 **GUBERNATOR**\
 Daj spróbować specyfiku. 
@@ -418,17 +386,13 @@ I Marianki.
 **GUBERNATOR** \
 Ach, jak ja kocham watrzanki!
 
-**ROBOTNIK 1**
-Temu znowu co się stało?
+**ROBOTNIK 1** Temu znowu co się stało?
 
-**SZAMAN** 
-Wchodzi w trans zakuta skało.
+**SZAMAN**  Wchodzi w trans zakuta skało.
 
-**NARRATOR**
-Wszędzie bloki i wieżowce \
+**NARRATOR** Wszędzie bloki i wieżowce \
 trochę dziwnie acz ciekawie, \
-Gdzie są lasy? Gdzież są owce?
-Lecz to nie jest w tym najgorsze, \
+Gdzie są lasy? Gdzież są owce? Lecz to nie jest w tym najgorsze, \
 bo lud chwyta się za gardła, \
 w końcu nie ma czym oddychać, \
 miarka widać się przebrała \
@@ -459,8 +423,7 @@ Dalej! Do roboty!
 
 **NARRATOR** \
 Chociaż w zatarciu tej sprawy nie było żadnej przeszkody, \
-gorzej było podczas sporu o 10 dniowe gacie Jody.
-\
+gorzej było podczas sporu o 10 dniowe gacie Jody. \
 Gubernator się odmienił, \
 poszedł z nami na ugodę, \
 tak jak las się puszczą mienił \
