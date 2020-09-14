@@ -9,7 +9,7 @@ image: >-
 ---
 # Przyroda nad jeziorem Sporym
 
-Filip Olszewski | 14.09.2020
+14.09.2020 | Filip Olszewski
 
 Dostałem jako zadanie opis przyrody z tegorocznego obozu. Będzie on napisany w dosyć nietypowy sposób, ponieważ będę opisywał rzeczy, które zrobiliśmy z darów lasu, bądź znaleźliśmy lub zauważyliśmy.
 
