@@ -10,9 +10,10 @@ category:
 <code>
 <style>
 code h1 {
-  font-size: 2em;
+  font-size: 2em!important;
 }
-
+</style>
+<style>
 code h1,
 code h2,
 code h2 + p,
@@ -22,12 +23,12 @@ code h2 + p,
 </style>
 <br>
 <br>
+<br>
 
 # "Puszcza"
 
 <p id="authors">Kiep & JP</p>
 
-<br>
 <br>
 
 ## SCENA I - POCZĄTEK
