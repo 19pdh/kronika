@@ -9,10 +9,13 @@ category:
 
 <code>
 <style>
+code h1 {
+  font-size: 2em;
+}
+
 code h1,
 code h2,
-code h3,
-code h4,
+code h2 + p,
 #authors {
   text-align: center;
 }
@@ -127,6 +130,8 @@ sam wyjąłeś siekierę wojenną z pepoża.
 
 ## SCENA IV - NARADA
 
+(Wódz, Szaman, Indianin 1, Indianin 2)
+
 **NARRATOR** \
 Wśród powszechnego bałaganu, \
 swądu fajek i łopianu, \
@@ -161,6 +166,8 @@ a nuż skutki złe i straszne \
 dzięki temu nas unikną.
 
 ## SCENA V - DZIADY
+
+(Wódz, Szaman, Indianin 1, Indianin 2, Indianin 3)
 
 **SZAMAN** \
 Dawać kocioł, gotujemy.
@@ -248,6 +255,8 @@ bo inaczej będzie skucha!
 
 ## SCENA VI - WIZJE ROBOTNIKÓW
 
+(Szaman, Duchy, Robotnicy)
+
 **SZAMAN** \
 Zbierzcie się tu łepki ciemne, \
 porzucamy treści miłe, \
@@ -303,6 +312,8 @@ Wizja NAGLE się urwała. \
 Gwiazdy świecą w głowie świta.
 
 ## SCENA VII - WIZJE GUBERNATORA
+
+(Szaman, Gubernator, Robotnik, Wódz)
 
 **NARRATOR** \
 Słychać butów równy chód, \
@@ -403,6 +414,8 @@ wieku oraz treści wątków.
 
 ## SCENA VIII - PRZEMIANA GUBERNATORA
 
+(Szaman, Gubernator, Robotnik)
+
 **GUBERNATOR**\
 Daj spróbować specyfiku.
 
@@ -447,6 +460,8 @@ Wizja NAGLE się urwała. \
 Gwiazdy świecą w głowie świta.
 
 ## SCENA IX - MORAŁ
+
+(Wszyscy)
 
 **NARRATOR** \
 Jak w deszczu słońce szyki mąci \
