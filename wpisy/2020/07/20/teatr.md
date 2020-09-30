@@ -5,6 +5,11 @@ date: 2020-09-10T19:42:56.932Z
 category:
   - oboz2020
 ---
+
+20.09.2020 | Jan Waligóra
+
+Teatrzyk
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IKhvw2TY65o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 50vmin; max-height: 450px; position: sticky; top: 0;"></iframe>
 
 <code>
@@ -44,7 +49,9 @@ Na początku była puszcza
 A w puszczy plemienia Shauni, prawowici synowie i córy matki natury, zginający karki tylko wobec praw przyrody.
 
 > *Indianin wyskakuje zza krzaka, napina łuk i puszcza. Wybiega za scenę przy indiańskim okrzyku.*
->
+
+Jednak z północy nadciągają chciwi ludzie próbujący położyć swoje chciwa łapy na dobrach tego lasu.
+
 > *Wychodzą 2 pracownicy z siekierami i podchodzą do drzew, które pod siekierami się przewalają. Z tyłu wychodzi Gubernator.*
 
 **GUBERNATOR**\
