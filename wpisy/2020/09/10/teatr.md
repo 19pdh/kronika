@@ -5,23 +5,37 @@ date: 2020-09-10T19:42:56.932Z
 category:
   - oboz2020
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IKhvw2TY65o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IKhvw2TY65o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 50vmin; max-height: 450px; position: sticky; top: 0;"></iframe>
 
 <code>
+<style>
+code h1,
+code h2,
+code h3,
+code h4,
+#authors {
+  text-align: center;
+}
+</style>
+<br>
+<br>
 
 # "Puszcza"
 
-Kiep & JP
+<p id="authors">Kiep & JP</p>
+
+<br>
+<br>
 
 ## SCENA I - POCZĄTEK
 
 (Indian i Puszcza)
 
-**NARRATOR** 
+**NARRATOR**
 
-Na początku była puszcza 
+Na początku była puszcza
 
-> *Wychodzą wszyscy przebrani za drzewa.* 
+> *Wychodzą wszyscy przebrani za drzewa.*
 
 A w puszczy plemienia Shauni, prawowici synowie i córy matki natury, zginający karki tylko wobec praw przyrody.
 
@@ -30,7 +44,7 @@ A w puszczy plemienia Shauni, prawowici synowie i córy matki natury, zginający
 > *Wychodzą 2 pracownicy z siekierami i podchodzą do drzew, które pod siekierami się przewalają. Z tyłu wychodzi Gubernator.*
 
 **GUBERNATOR**\
-Ścinać! Precz z tymi dzidami! O, a tutaj dajcie biało-czerwoną taśmę, żeby nikt się nie zgubił. 
+Ścinać! Precz z tymi dzidami! O, a tutaj dajcie biało-czerwoną taśmę, żeby nikt się nie zgubił.
 
 **PRACOWNIK 1** \
 Ale Gubernatorze! Ten las jest taki piękny, poza tym mieszkają w nim Indianie i Watrz-Indianki.
@@ -45,7 +59,7 @@ Nie obchodzi mnie to, kto nie przestrzega norm sanitarnych GiS’u winien szczez
 **NARRATOR** \
 Kiedy rankiem ze skowronkiem powitano nowy dzień, \
 stała się rzecz wręcz okropna – las nawiedził mroczny cień. \
-Biały człek na ziemię zszedł, z chmur lunął ulewny deszcz 
+Biały człek na ziemię zszedł, z chmur lunął ulewny deszcz
 
 **ZWIADOWCA** \
 Wielki wodzu! Sprawa nagła, \
@@ -82,15 +96,15 @@ pełno jest tego pomiotu w naszym stanie.
 
 **GUBERNATOR** \
 Czegóż chcecie moi mili, \
-czyżby was pobili? 
+czyżby was pobili?
 
 **POSŁANIEC 1** \
 Blada Twarzo, my nie przyszli tu żartować, \
-tylko od twojego planu cię odwołać! 
+tylko od twojego planu cię odwołać!
 
 **GUBERNATOR** \
 Ależ o czym wy mówicie, \
-wszak wszystko jest znakomicie. 
+wszak wszystko jest znakomicie.
 
 **POSŁANIEC 2** Wielki most nad Wielką Wodą, \
 do świętego miejsca jest przeszkodą!
@@ -102,10 +116,10 @@ taka wola Nieba z nią się zawsze zgadzać trzeba!
 
 **POSŁANIEC 1** \
 W takim razie Siedzący Gerwazy daj sztucerówke, \
-niechaj strącę tę bladą makówkę. 
+niechaj strącę tę bladą makówkę.
 
 **GUBERNATOR** \
-A więc wojny chcecie, czy Wy wiecie na jaką rzecz się piszecie? 
+A więc wojny chcecie, czy Wy wiecie na jaką rzecz się piszecie?
 
 **POSŁANIEC 2** \
 Dla nas to ni pierwszyzna, lecz powinność Boża, \
@@ -149,25 +163,28 @@ dzięki temu nas unikną.
 ## SCENA V - DZIADY
 
 **SZAMAN** \
-Dawać kocioł, gotujemy. 
+Dawać kocioł, gotujemy.
 
 **INDIANIN 1** \
-Co pichcimy? 
+Co pichcimy?
 
 **SZAMAN** \
-Dziś nie jemy. 
+Dziś nie jemy.
 
 **INDIANIN 1** \
 Więc znów czary?
 
-**SZAMAN** Dawać mi tu tamte gary!
+**SZAMAN** \
+Dawać mi tu tamte gary!
 
-**INDIANIN 1** Posłuchaj szamanie drogi, \
+**INDIANIN 1** \
+Posłuchaj szamanie drogi, \
 by nie było niedomówień, \
 twój czar gniewny jest i srogi, \
 a my tu nie chcemy umrzeć!
 
-**SZAMAN** Co to znaczy?
+**SZAMAN** \
+Co to znaczy?
 
 **INDIANIN 2** Nie inaczej, \
 twoje gusła średniowieczne \
@@ -179,40 +196,50 @@ i słychać przeklęte duchy
 Eeee, gadanie…
 
 **INDIANIN 2**\
-To dokładne opisanie. 
+To dokładne opisanie.
 
 **SZAMAN** \
-Nie ma strachu. 
+Nie ma strachu.
 
 **INDIANIN 2**\
-Zobaczymy. 
+Zobaczymy.
 
-**SZAMAN**  Weź składniki, policzymy.
+**SZAMAN**  \
+Weź składniki, policzymy.
 
-**SZAMAN** Dajcie mi menażkę szyszek, \
+**SZAMAN** \
+Dajcie mi menażkę szyszek, \
 4 gwoździe, kuroliszek,\
 2 ziarnka białego ryżu.
 
-**INDIANIN 3** Nie ma ryżu.
+**INDIANIN 3** \
+Nie ma ryżu.
 
-**SZAMAN** Daj anyżu, \
+**SZAMAN** \
+Daj anyżu, \
 zwinięty w brązowe chusty.
 
-**INDIANIN 3** Panie, nasz spichlerz jest pusty.
+**INDIANIN 3** \
+Panie, nasz spichlerz jest pusty.
 
-**SZAMAN** Jeszcze jeden ser półtłusty
+**SZAMAN** \
+Jeszcze jeden ser półtłusty
 
-**INDIANIN 3** To są żarty?
+**INDIANIN 3** \
+To są żarty?
 
-**SZAMAN** W plastrach lub na tarce starty.
+**SZAMAN** \
+W plastrach lub na tarce starty.
 
-**INDIANIN 3** Jeszcze jakieś masz życzenia, \
+**INDIANIN 3** \
+Jeszcze jakieś masz życzenia, \
 które są nie do spełnienia?
 
-**SZAMAN** Daj spis warty
+**SZAMAN** \
+Daj spis warty
 
 **INDIANIN 3**\
-Czary to czy żarty? 
+Czary to czy żarty?
 
 **SZAMAN**\
 Magia czarna wymaga współpracy jak na alarmach, \
@@ -230,7 +257,7 @@ czas na te najcięższe duchy, \
 które męstwem siłą wiarą \
 niezliczoną żadną miarą, \
 wartość swą udowodniły \
-nim kości w grobach złożyły. 
+nim kości w grobach złożyły.
 
 **DUCHY**\
 My wezwane przybywamy\
@@ -238,14 +265,17 @@ i żądamy odpowiedzi, \
 Co? Jak? Gdzie? Dlaczego? Kiedy? \
 Mówcie tak jak na spowiedzi.
 
-**SZAMAN**  Nawrócić trzeba niewiernych, \
+**SZAMAN**  \
+Nawrócić trzeba niewiernych, \
 sprowadzić na dobrą drogę, \
 zaprzestać środków mizernych, \
 dać ich duszom zapomogę.
 
-**UPIÓR** Podać rękę czy dać nogę?
+**UPIÓR** \
+Podać rękę czy dać nogę?
 
-**SZAMAN** Sprawa pilna jest niezmiernie, \
+**SZAMAN** \
+Sprawa pilna jest niezmiernie, \
 bo człek blady jak owsianka \
 zachowuje się bezczelnie\
 i już od samego ranka\
@@ -253,12 +283,14 @@ bierze cegły, bierze kielnie \
 i buduje wielkie domy \
 burząc pięknych drzew korony.
 
-**UPIÓR** Podejdź więc duchu wyblakły \
+**UPIÓR** \
+Podejdź więc duchu wyblakły \
 niechaj w przyszłość was zabiorę, \
 czeka was skok w przestrzeń nagły, \
 zobaczcie swą nędzną dole!
 
-**NARRATOR** Wszędzie bloki i wieżowce \
+**NARRATOR** \
+Wszędzie bloki i wieżowce \
 trochę dziwnie acz ciekawe, \
 Gdzie są lasy? Gdzież są owce? \
 Lecz to nie jest w tym najgorsze, \
@@ -290,44 +322,51 @@ co wiele zrobi dla zysku,\
 jest sprzedawczykiem, łotrzykiem złodziejem\
 i panem wsi wielu lub kilku.
 
-**SZAMAN** Zebrały się czarne chmury, wkiernicz czeka nas ponury.
+**SZAMAN** \
+Zebrały się czarne chmury, wkiernicz czeka nas ponury.
 
-**NARRATOR** W otoczeniu wiernej gwardii \
+**NARRATOR** \
+W otoczeniu wiernej gwardii \
 idzie straszny gubernator, \
 dwaj dryblasi muskularni. \
 Pośrodku eksterminator.
 
-**GUBERNATOR** Nie wiem co mnie wciąż tu trzyma, \
+**GUBERNATOR** \
+Nie wiem co mnie wciąż tu trzyma, \
 na północy wichry śniegi, \
 ani rusz nadchodzi zima, \
 zawrzyjmy ciaśniej szeregi.
 
-**ROBOTNIK 1** Panie..
+**ROBOTNIK 1** \
+Panie..
 
-**GUBERNATOR** Co ja widzę?! \
+**GUBERNATOR** \
+Co ja widzę?! \
 Tempo pracy znacznie spadło, \
 patrzę i się wami brzydzę.
 
-**ROBOTNIK 1** Mieliśmy wizje magiczną \
+**ROBOTNIK 1** \
+Mieliśmy wizje magiczną \
 pracować dalej nie chcemy, \
 bo jak wszystkie drzewa znikną, \
 to my wszyscy poginiemy!
 
-**GUBERNATOR** Nie chcę słyszeć ani słowa, \
+**GUBERNATOR** \
+Nie chcę słyszeć ani słowa, \
 boli mnie od tego głowa. \
 Drewno? Co z drewna wynika? \
 Ciepła woda z parownika, \
 raszki i wygodne prycze… tyle rzeczy, że nie zliczę!
 
 **ROBOTNIK 1** \
-Z drewna można maszty robić. 
+Z drewna można maszty robić.
 
 **SZAMAN**\
-Stalą trzeba je zastąpić. 
+Stalą trzeba je zastąpić.
 
 **GUBERNATOR** \
 Wstawka tak nie odpowiednia \
-jak skrócona cisza poobiednia. 
+jak skrócona cisza poobiednia.
 
 **NARRATOR** \
 Nastąpiło poruszenie, \
@@ -336,12 +375,14 @@ zaszkodziło to mej wenie, \
 jeszcze trochę czasu mieli by odprawić znów rytuał, \
 wzięli halucynogeny lecz wódz prace ich zatrzymał!
 
-**WÓDZ** Dziadów już nie odprawiamy, \
+**WÓDZ** \
+Dziadów już nie odprawiamy, \
 szaman zmęczony śmiertelnie,\
 wdychał trujące opary, \
 myślami jest w świętym lesie!
 
-**SZAMAN** Ja decyzję już podjąłem \
+**SZAMAN** \
+Ja decyzję już podjąłem \
 tak jak Kmicic bronił zamku, \
 ja bronić puszczy zawziąłem, \
 więc posłuchaj mnie mopanku, \
@@ -349,7 +390,8 @@ wzywam duchy bo tak trzeba by powstrzymać los straszliwy, \
 jeszcze dziś pójdę do nieba, \
 ale puszcze ocalimy!
 
-**NARRATOR** No bo w końcu bez dramatu\
+**NARRATOR** \
+No bo w końcu bez dramatu\
 jak z powieści szekspirowskiej, \
 odbiegając od tematu \
 męki, śmierci i bolączki, \
@@ -362,10 +404,10 @@ wieku oraz treści wątków.
 ## SCENA VIII - PRZEMIANA GUBERNATORA
 
 **GUBERNATOR**\
-Daj spróbować specyfiku. 
+Daj spróbować specyfiku.
 
 **SZAMAN**\
-Nie jesteśmy na pikniku. 
+Nie jesteśmy na pikniku.
 
 **GUBERNATOR**\
 Ale…
@@ -373,24 +415,27 @@ Ale…
 **SZAMAN**\
 Nie ma ale, \
 by wydobyć stąd esencje \
-weź bucha, nie mniej, ni więcej! 
+weź bucha, nie mniej, ni więcej!
 
 **GUBERNATOR**\
 Lubię tamte wasze śpiewy \
 (próbując) \
-prawie jak burgery Ewy! 
+prawie jak burgery Ewy!
 
 **SZAMAN** \
-I Marianki. 
+I Marianki.
 
 **GUBERNATOR** \
 Ach, jak ja kocham watrzanki!
 
-**ROBOTNIK 1** Temu znowu co się stało?
+**ROBOTNIK 1** \
+Temu znowu co się stało?
 
-**SZAMAN**  Wchodzi w trans zakuta skało.
+**SZAMAN**  \
+Wchodzi w trans zakuta skało.
 
-**NARRATOR** Wszędzie bloki i wieżowce \
+**NARRATOR** \
+Wszędzie bloki i wieżowce \
 trochę dziwnie acz ciekawie, \
 Gdzie są lasy? Gdzież są owce? Lecz to nie jest w tym najgorsze, \
 bo lud chwyta się za gardła, \
@@ -416,10 +461,10 @@ Nie! Lasu wycinać nie można, \
 ale absolutnie wykluczone, \
 trzeba cofnąć daną zgodę, \
 wnet wszystko odwołamy \
-i w mig całość posprzątamy. 
+i w mig całość posprzątamy.
 
 **GUBERNATOR** \
-Dalej! Do roboty! 
+Dalej! Do roboty!
 
 **NARRATOR** \
 Chociaż w zatarciu tej sprawy nie było żadnej przeszkody, \
