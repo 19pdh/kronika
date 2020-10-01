@@ -22,7 +22,7 @@ Zacząłem przedstawienie słowami:
 "Na początku była puszcza…"
 Potem wszystko działo się samo, Kiep świetnie wystąpił w roli szamana. Rozpalono kocioł pełen zielonych płomieni, a sam JP, autor tej sztuki zapomniał części swojej kwestii. Wszystko zakończyło się gromkimi okrzykami (harcerze nie klaszczą) i ogólną euforią. Wyobrażam sobie jak za kilkanaście lat nasi następcy będą czytać scenariusz i wyobrażać sobie jak kozacka musiała być aranżacja, a wyszło zaledwie bardzo dobrze.
 
-Zresztą możecie samemu zobaczyć. Niestety w tym roku nam się trafił las o słabej akustyce, dlatego polecamy słuchawki 📢.
+Zresztą możecie samemu zobaczyć. Niestety w tym roku nam się trafił las o słabej akustyce, dlatego polecamy słuchawki 📢 i napisy.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IKhvw2TY65o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 50vmin; max-height: 450px; position: sticky; top: 0;"></iframe>
