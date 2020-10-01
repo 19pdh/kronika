@@ -8,7 +8,21 @@ category:
 
 20.09.2020 | Jan Waligóra
 
-Teatrzyk
+Serce łomotało mi w piersi… Nie mogłem ustać z nogami  z galarety, więc usiadłem… Jeszcze chwila… Aż w końcu…
+
+Wygląda to jak jakiś bardzo ważny moment, z perspektywy przeżywającego. Tak naprawdę były to moje przeżycia zaraz przed rozpoczęciem naszej sztuki, ale zacznijmy od początku.
+
+Wystawienie własnej sztuki zaproponował Patryk już we wczesnym etapie planowania obozu. Wydało mi się to ciekawym pomysłem, było to dla mnie ciekawe rozwinięcie idei festiwalu - 9
+zamiast zastępów robiących scenki  miała występować drużyna jako całość w pełnoprawnym przedstawieniu. Jadąc na obóz większość rzeczy związanych z wykonaniem było nieustalonych, był jedynie szkic fabuły i pobieżny projekt sceny. W bodajze niedzielę powiedzieliśmy drużynie o naszym planie, większość była sceptycznie nastawiona, lecz widziałem dwóch takich, którym oczy się zaświeciły na wiadomość o napisaniu scenariusza. Byli to Franciszek Kiernicki (dalej Kiep) i Jan Paweł (dalej JP). W ten sam dzień udało nam się napisać komendą pierwszą scenę i ogarnąć część strojów, a przez następne kilka dni Kiep i JP mieli zająć się pisaniem reszty, jak się później okazało, wierszem. Przedsięwzięcie to było tyle śmiałe co niemożliwe, jednak nasi panowie rzeczy niemożliwe robią od ręki - na cuda trzeba poczekać. Gdy skończyli, niezwłocznie zajęliśmy się próbami, oczywiście tuż po pozbieraniu szczęk z podłogi. Na początku szło siermiężnie, wszyscy byli tak podjarani tym tekstem, że nie mogli skupić się na swoich rolach, jednak próba za próbą i w końcu uzyskaliśmy zadowalający efekt. Ustaliliśmy termin ogniska, wysłaliśmy posłańców z zaproszeniami na spektakl (była to część próby zastępu JP), jednak, gdy doszło co do czego, ognisko, przy którym mieliśmy występować opóźniło się o kilka dni. Deszczowy dzień wykorzystaliśmy malując krzyże harcerskie dziewczyn złotą farbą. Jednak kiedyś ten dzień musiał nadejść i - nie zgadniecie co - nadszedł. Śpiewając piosenki i patrząc się w ogień myślałem tylko o jednym, żeby już wystąpić. Gdy skończyła się ostatnia piosenka przed naszym wystąpieniem, mój mózg działał na najwyższych obrotach. Byłem narratorem, nie musiałem się przebierać, więc nadzorowałem resztę, czy umieją swoje role i jak wyglądają. Gdy już upewniłem się co do ogarnięcia drużyny, udałem się na miejsce dla narratora - ławeczkę.
+
+Serce łomotało mi w piersi… Nie mogłem ustać z nogami  z galarety, więc usiadłem… Jeszcze chwila… Aż w końcu…
+
+Zacząłem przedstawienie słowami:
+"Na początku była puszcza…"
+Potem wszystko działo się samo, Kiep świetnie wystąpił w roli szamana. Rozpalono kocioł pełen zielonych płomieni, a sam JP, autor tej sztuki zapomniał części swojej kwestii. Wszystko zakończyło się gromkimi okrzykami (harcerze nie klaszczą) i ogólną euforią. Wyobrażam sobie jak za kilkanaście lat nasi następcy będą czytać scenariusz i wyobrażać sobie jak kozacka musiała być aranżacja, a wyszło zaledwie bardzo dobrze.
+
+Zresztą możecie samemu zobaczyć. Niestety w tym roku nam się trafił las o słabej akustyce, dlatego polecamy słuchawki 📢.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IKhvw2TY65o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 50vmin; max-height: 450px; position: sticky; top: 0;"></iframe>
 
