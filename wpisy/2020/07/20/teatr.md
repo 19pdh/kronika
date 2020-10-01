@@ -1,14 +1,14 @@
 ---
 title: Teatr
 author: guest
-date: 2020-09-10T19:42:56.932Z
+date: 2020-07-20T19:42:56.932Z
 category:
   - oboz2020
 ---
 
 # Teatr
 
-20.09.2020 | Jan Waligóra
+20.07.2020 | Jan Waligóra
 
 Serce łomotało mi w piersi… Nie mogłem ustać z nogami  z galarety, więc usiadłem… Jeszcze chwila… Aż w końcu…
 
