@@ -5,7 +5,7 @@
   "main": "check.js",
   "dependencies": {
     "esm": "^3.2.25",
-    "kronikarz": "^2.2.0"
+    "kronikarz": "^2.3.0"
   },
   "scripts": {
     "build": "mkdir -p ../static/api && touch ../static/api/posts.json && sed -i '/type\": \"module/d' node_modules/@gerhobbelt/markdown-it-html5-media/package.json && node -r esm build.js && cp _headers ../static && cp -r ../wpisy ../static/files",
