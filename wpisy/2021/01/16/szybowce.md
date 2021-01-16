@@ -1,7 +1,7 @@
 ---
 title: Szybowce
 author: Józek
-date: 2021-01-16T18:22:07.253Z
+date: 2021-01-14T18:22:07.253Z
 image: >-
   https://pics.niedzwiedzinski.cyou/puszcza.netlify.app/photo_2021-01-16_19-25-32.jpg
 ---
