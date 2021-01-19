@@ -6,8 +6,6 @@ category:
   - oboz2020
 ---
 
-# Teatr
-
 20.07.2020 | Jan Waligóra
 
 Serce łomotało mi w piersi… Nie mogłem ustać z nogami  z galarety, więc usiadłem… Jeszcze chwila… Aż w końcu…

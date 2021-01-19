@@ -5,7 +5,6 @@ date: 2020-06-24T11:18:33.745Z
 image: >-
   https://lh3.googleusercontent.com/pw/ACtC-3eR0bSYUr9edI6_yHi6a-vavpSWGBCRPBcCy60Z4gme72dAiTgbe-IKYIf-Qy_M6DNOYl2jSBbM_APLUaYCYbj45F5WnSLSRMQEYXsKNphUffEObIXsDxUdu2TPXpTSapi_lzaX9zoRfxP19rHa-oo_=w818-h378-no
 ---
-# Moja próba na ćwika
 
 24.06.2020 | Jan B. Waligóra
 

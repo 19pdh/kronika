@@ -3,7 +3,6 @@ title: Zbiórka Puszczy online
 author: Tymoteusz Jóźwiak
 date: 2020-06-18T11:18:33.745Z
 ---
-# Zbiórka Puszczy online
 
 18.06.2020 | Tymoteusz Jóźwiak
 

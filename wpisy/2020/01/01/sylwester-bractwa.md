@@ -4,8 +4,6 @@ author: Patryk Niedźwiedziński
 date: 2020-01-01T00:00:00.000Z
 ---
 
-# Sylwester Bractwa Wędrowniczego
-
 01.01.2020 | Patryk Niedźwiedziński
 
 Nasz Zastęp Zastępowych został zaproszony na sylwestra organizowanego przez
