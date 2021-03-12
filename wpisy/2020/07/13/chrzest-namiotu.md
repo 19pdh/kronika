@@ -20,7 +20,7 @@ Odpowiedzieliśmy:
 
 > "Tak będziemy"
 
-I nagle! Nie spodziewanie! Odezwał się Joda- `"MATUKARI!"`
+I nagle! Nie spodziewanie! Odezwał się Joda- "MATUKARI!"
 
 Ze wszystkich stron, cała, wcześniej zebrana już drużyna, ustawiona po obu bokach naszego Jerzego, o którego będziemy dbać całym sercem, cała duszą i umysłem, zaczęła polewać nas wodą. Było to jak można sobie wyobrazić dość duże zaskoczenie.
 Po wszystkim, wszyscy, oprócz nas, którzy stali mokrzy przed równie mokrym Jerzym zaczęli się śmiać. Poczułem wtedy takie zażenowanie, jakbym znowu czytał "Czarne Stopy".
