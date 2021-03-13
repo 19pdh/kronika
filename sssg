@@ -1,0 +1,6 @@
+#!/bin/sh
+while :
+do
+    find . -type f ! -path '*/.*' |
+    entr -d ./gen
+done
