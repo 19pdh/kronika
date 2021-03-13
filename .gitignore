@@ -1,7 +1,10 @@
+dest
 .DS_Store
 static/api
 static/files
 static/rss.xml
+
+wpisy/kronika.html
 
 # testing
 node_modules

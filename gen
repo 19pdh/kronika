@@ -1,0 +1,17 @@
+#!/bin/sh
+
+rm -r dest
+mkdir dest
+
+cat > wpisy/kronika.html << EOF
+<h2>Ostatnie wpisy</h2>
+
+<a href="rss.xml">RSS</a>
+EOF
+
+for f in `find wpisy -name '*.md'`; do
+  path=`echo $f | sed 's/wpisy\///;s/md/html/'`
+  echo "<a href=\"$path\">$path</a>" >> wpisy/kronika.html
+done
+
+./ssg5 wpisy dest "19pdh" "https://19.niedzwiedzinski.cyou"
