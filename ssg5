@@ -70,14 +70,8 @@ main() {
 				echo "$fs" | grep '\.md$' |
 				render_md_files_lowdown "$src" "$dst" "$title"
 			else
-				if test -x "$(which Markdown.pl 2> /dev/null)"
-				then
-					echo "$fs" | grep '\.md$' |
-					render_md_files_Markdown_pl "$src" "$dst" "$title"
-				else
-					echo "couldn't find lowdown nor Markdown.pl"
-					exit 3
-				fi
+			  echo "couldn't find lowdown nor Markdown.pl"
+				exit 3
 			fi
 		fi
 
@@ -180,7 +174,13 @@ list_affected_files() {
 
 render_html_files() {
 	while read -r f
-	do render_html_file "$3" < "$1/$f" > "$2/$f"
+	do
+    if [[ "$f" =~ index.html$ ]]; then
+      render_html_file "$3" < "$1/$f" > "$2/$f"
+    else
+      mkdir "$2/${f%\.html}"
+      render_html_file "$3" < "$1/$f" > "$2/${f%\.html}/index.html"
+    fi
 	done
 }
 
@@ -188,25 +188,20 @@ render_html_files() {
 render_md_files_lowdown() {
 	while read -r f
 	do
-    mkdir "$2/${f%\.md}"
-		lowdown \
-		< "$1/$f" |
-		render_html_file "$3" \
-		> "$2/${f%\.md}/index.html"
+    if [[ "$f" =~ index.md$ ]]; then
+      lowdown \
+		  < "$1/$f" |
+		  render_html_file "$3" \
+		  > "$2/${f%\.md}.html"
+    else
+      mkdir "$2/${f%\.md}"
+		  lowdown \
+		  < "$1/$f" |
+		  render_html_file "$3" \
+		  > "$2/${f%\.md}/index.html"
+    fi
 	done
 }
-
-
-render_md_files_Markdown_pl() {
-	while read -r f
-	do
-    mkdir "$2/${f%\.md}"
-		Markdown.pl < "$1/$f" |
-		render_html_file "$3" \
-		> "$2/${f%\.md}/index.html"
-	done
-}
-
 
 render_html_file() {
 	# h/t Devin Teske
