@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rm -r dest
+rm -r dest || true
 mkdir dest
 
 cat > wpisy/kronika.html << EOF
