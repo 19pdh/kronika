@@ -1,0 +1,109 @@
+:root {
+  --primary: #000;
+  --bg-primary: #fff;
+  --secondary: #fff;
+  --bg-secondary: #507b34;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", sans-serif;
+  height: 100%;
+}
+
+nav a {
+  vertical-align: middle;
+}
+
+a:link,
+a:visited {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--bg-secondary);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100ex;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+nav a {
+  margin: 0.5em;
+}
+
+main h1,
+main h2,
+main h3 {
+  text-align: center;
+}
+
+header > *,
+main,
+footer > * {
+  max-width: 80ex;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1ex;
+}
+
+nav ul {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2ex 1ex;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.secondary {
+  color: var(--secondary);
+  background-color: var(--bg-secondary);
+}
+
+.secondary a {
+  color: var(--secondary);
+}
+
+.secondary a:hover {
+  color: #eee;
+}

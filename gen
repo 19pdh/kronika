@@ -6,12 +6,14 @@ mkdir dest
 cat > wpisy/kronika.html << EOF
 <h2>Ostatnie wpisy</h2>
 
-<a href="rss.xml">RSS</a>
+<a href="rss.xml"><img alt="" src="/assets/rss.svg" style="height:1em">RSS</a>
+<div>
 EOF
 
 for f in `find wpisy -name '*.md'`; do
   path=`echo $f | sed 's/wpisy\///;s/md/html/'`
-  echo "<a href=\"$path\">$path</a>" >> wpisy/kronika.html
+  echo "<a href=\"$path\"><div>$path</div></a>" >> wpisy/kronika.html
 done
+echo "</div>" >> wpisy/kronika.html
 
 ./ssg5 wpisy dest "19pdh" "https://19.niedzwiedzinski.cyou"
