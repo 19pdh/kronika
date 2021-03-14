@@ -4,6 +4,7 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
-h1:first-of-type {
+/* Hide required title */
+.frame-content > div > div:first-child {
   display: none;
 }
