@@ -50,7 +50,7 @@ main() {
   test -f "$h_file" && HEADER=$(cat "$h_file") && export HEADER
 
   list_dirs "$src" |
-  (cd "$src" && ../cpio -pdu "$dst")
+  (cd "$src" && cpio -pdu "$dst")
 
   fs=$(
   if test -f "$dst/.files"
@@ -79,7 +79,7 @@ main() {
     render_html_files "$src" "$dst" "$title"
 
     echo "$fs" | grep -Ev '\.md$|\.html$' |
-    (cd "$src" && ../cpio -pu "$dst")
+    (cd "$src" && cpio -pu "$dst")
   fi
 
   printf '[ssg] ' >&2
