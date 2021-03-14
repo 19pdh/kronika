@@ -8,14 +8,17 @@
   <body>
     <!--[if lt IE 8]>
       <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
-        your experience.
+      You are using an <strong>outdated</strong> browser. Please
+      <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+      your experience.
       </p>
     <![endif]-->
 
     <noscript>You need to have javascript enabled</noscript>
     <script src="https://unpkg.com/netlify-cms@2.10.16/dist/netlify-cms.js"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      CMS.registerPreviewStyle("/preview.css");
+    </script>
   </body>
 </html>
