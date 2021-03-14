@@ -200,7 +200,7 @@ render_md_files_lowdown() {
     echo "" > $in
     [ "$(echo $f | cut -d'/' -f 2)" = "kronika" ] && echo "<article>" > $in
     # Filter out frontmatter
-    tail -n +$(($(sed -n '/---/,/---/p' $1/$f | wc -l)+2)) $1/$f | \
+    tail -n +$(($(sed -n '/---/,/---/p' $1/$f | wc -l)+1)) $1/$f | \
       lowdown --html-no-skiphtml --html-no-escapehtml >> $in && \
     [ "$(echo $f | cut -d'/' -f 2)" = "kronika" ] && echo "</article>" >> $in
 
