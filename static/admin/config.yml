@@ -2,8 +2,8 @@ backend:
   name: git-gateway
 
 publish_mode: editorial_workflow
-display_url: https://puszcza.netlify.com
-site_url: https://puszcza.netlify.com
+display_url: https://puszcza.netlify.app
+site_url: https://puszcza.netlify.app
 logo_url: /19pdh.png
 locale: 'pl'
 
@@ -15,38 +15,21 @@ collections:
     label_singular: 'wpis'
     folder: 'wpisy'
     slug: '{{title}}'
-    path: '{{year}}/{{month}}/{{day}}/{{slug}}'
+    path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
     preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{title}}'
     preview_path_date_field: 'date'
     create: true
     editor:
-      preview: false
+      preview: true
     fields:
       - label: 'Tytuł'
         name: title
         widget: string
         required: true
 
-      - label: 'Autor'
-        name: author
-        widget: string
-        required: true
-
-      - label: 'Data'
-        name: date
-        widget: datetime
-        dateFormat: DD.MM.YYYY
-        timeFormat: false
-        required: true
-
       - label: 'Kategorie/Tagi'
         name: category
         widget: list
-        required: false
-
-      - label: 'Zdjęcie okładki - link'
-        name: image
-        widget: string
         required: false
 
       - label: 'Wpis'

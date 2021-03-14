@@ -22,3 +22,4 @@ done
 echo "</div>" >> wpisy/kronika.html
 
 ./ssg5 wpisy dest "19 PDH Puszcza" "https://19.niedzwiedzinski.cyou"
+cp -r static/* dest
