@@ -21,7 +21,10 @@ Rozpocząłem przygotowania od telefonu do mojego zaufanego człowieka ds. okoł
 
 Wywiad:
 
-![](https://api-puszcza.netlify.app/files/2020/06/24/wywiad-z-prezydentem.m4a)
+<audio controls>
+  <source src="../wywiad-z-prezydentem.m4a" type="audio/mp4">
+  <source src="../wywiad-z-prezydentem.mp3" type="audio/mpeg">
+</audio>
 
 
 ## Część 4: Epilog

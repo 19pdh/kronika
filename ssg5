@@ -70,7 +70,7 @@ main() {
         echo "$fs" | grep '\.md$' |
         render_md_files_lowdown "$src" "$dst" "$title"
       else
-        echo "couldn't find lowdown nor Markdown.pl"
+        echo "couldn't find lowdown"
         exit 3
       fi
     fi
@@ -199,10 +199,10 @@ render_md_files_lowdown() {
 
     if [ "$(echo $f | cut -d'/' -f 2)" = "kronika" ]; then
       echo "<article>" > $in && \
-      lowdown "$1/$f" >> $in && \
+      lowdown --html-no-skiphtml --html-no-escapehtml "$1/$f" >> $in && \
       echo "</article>" >> $in
     else
-      lowdown "$1/$f" > $in
+      lowdown --html-no-skiphtml --html-no-escapehtml "$1/$f" > $in
     fi
 
     cat "$in" |
