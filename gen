@@ -9,7 +9,7 @@ export PATH="$PWD/.jekyll-cache:$PATH"
 ./tools/compile
 
 
-function post_link() {
+post_link() {
   path=$1
   title=$2
   photo=$3
