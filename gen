@@ -3,7 +3,7 @@
 rm -r dest || true
 mkdir dest
 
-export PATH="$PWD/tools:$PATH"
+export PATH="$PWD/node_modules:$PATH"
 
 cat > wpisy/kronika.html << EOF
 <h2>Ostatnie wpisy</h2>

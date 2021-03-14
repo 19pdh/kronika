@@ -25,5 +25,5 @@ if [ ! -f node_modules/cpio ]; then
   make
   make install
   cp -r out ../node_modules/cpio_src
-  ln -s ../node_modules/cpio ../node_modules/cpio_src/bin/cpio
+  ln -s ../node_modules/cpio_src/bin/cpio ../node_modules/cpio
 fi
