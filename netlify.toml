@@ -3,7 +3,4 @@
 	command = "./gen"
 
 [[plugins]]
-package = "netlify-plugin-debug-cache"
-
-[[plugins]]
 package = "netlify-plugin-jekyll-cache"
