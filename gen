@@ -10,8 +10,8 @@ cat > wpisy/kronika.html << EOF
 <div>
 EOF
 
-for f in `find wpisy/20* -name '*.md' | sort -r`; do
-  path=`echo $f | sed 's/wpisy\///;s/.md//'`
+for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
+  path=`echo $f | sed 's/wpisy//;s/.md//'`
   echo "<a href=\"$path\"><div>$path</div></a>" >> wpisy/kronika.html
 done
 echo "</div>" >> wpisy/kronika.html
