@@ -1,29 +1,29 @@
 #!/bin/sh
 ## Automated script for compiling lowdown
 
-# node_modules is cached by netlify
-mkdir -p node_modules
+# jekyll-cache is cached by netlify plugin
+mkdir -p .jekyll-cache
 
 ## lowdown
-if [ ! -f node_modules/lowdown ]; then
+if [ ! -f .jekyll-cache/lowdown ]; then
   wget https://kristaps.bsd.lv/lowdown/snapshots/lowdown.tar.gz
   tar xf lowdown.tar.gz
   cd lowdown-*
   ./configure
   make
-  cp lowdown ../node_modules
+  cp lowdown ../.jekyll-cache
   cd ..
 fi
 
 
 ## cpio
-if [ ! -d node_modules/cpio_src ]; then
+if [ ! -d .jekyll-cache/cpio_src ]; then
   wget https://ftp.gnu.org/gnu/cpio/cpio-2.13.tar.gz
   tar xf cpio-2.13.tar.gz
   cd cpio-2.13
   ./configure --prefix=$PWD/out
   make
   make install
-  cp -r out ../node_modules/cpio_src
-  ln -s ../node_modules/cpio_src/bin/cpio ../node_modules/cpio
+  cp -r out ../.jekyll-cache/cpio_src
+  ln -s ../.jekyll-cache/cpio_src/bin/cpio ../.jekyll-cache/cpio
 fi

@@ -8,6 +8,7 @@ wpisy/kronika.html
 
 # testing
 node_modules
+.jekyll-cache
 package-lock.json
 *.in
 
