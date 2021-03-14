@@ -178,7 +178,7 @@ render_html_files() {
     if [ "$(basename $f)" = "index.html" ]; then
       out="$2/$f"
     else
-      mkdir "$2/${f%\.html}"
+      mkdir -p "$2/${f%\.html}"
       out="$2/${f%\.html}/index.html"
     fi
     render_html_file "$3" < "$1/$f" > "$out"
@@ -187,20 +187,29 @@ render_html_files() {
 
 
 render_md_files_lowdown() {
+  in="$(mktemp)"
   while read -r f
   do
     if [ "$(basename $f)" = "index.md" ]; then
       out="$2/${f%\.md}.html"
-
     else
-      mkdir "$2/${f%\.md}"
+      mkdir -p "$2/${f%\.md}"
       out="$2/${f%\.md}/index.html"
     fi
-    lowdown \
-      < "$1/$f" |
+
+    if [ "$(echo $f | cut -d'/' -f 2)" = "kronika" ]; then
+      echo "<article>" > $in && \
+      lowdown "$1/$f" >> $in && \
+      echo "</article>" >> $in
+    else
+      lowdown "$1/$f" > $in
+    fi
+
+    cat "$in" |
       render_html_file "$3" \
       > "$out"
   done
+  rm $in
 }
 
 render_html_file() {

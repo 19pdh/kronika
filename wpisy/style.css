@@ -38,6 +38,7 @@ main {
 
 header {
   box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  padding: 2ex 0;
 }
 
 header > div {
@@ -59,10 +60,17 @@ nav a {
   margin: 0.5em;
 }
 
-main h1,
-main h2,
-main h3 {
+main > p {
   text-align: center;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+}
+
+article {
+  text-align: left;
 }
 
 header > *,
