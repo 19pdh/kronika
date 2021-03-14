@@ -197,13 +197,12 @@ render_md_files_lowdown() {
       out="$2/${f%\.md}/index.html"
     fi
 
-    if [ "$(echo $f | cut -d'/' -f 2)" = "kronika" ]; then
-      echo "<article>" > $in && \
-      lowdown --html-no-skiphtml --html-no-escapehtml "$1/$f" >> $in && \
-      echo "</article>" >> $in
-    else
-      lowdown --html-no-skiphtml --html-no-escapehtml "$1/$f" > $in
-    fi
+    echo "" > $in
+    [ "$(echo $f | cut -d'/' -f 2)" = "kronika" ] && echo "<article>" > $in
+    # Filter out frontmatter
+    tail -n +$(($(sed -n '/---/,/---/p' $1/$f | wc -l)+2)) $1/$f | \
+      lowdown --html-no-skiphtml --html-no-escapehtml >> $in && \
+    [ "$(echo $f | cut -d'/' -f 2)" = "kronika" ] && echo "</article>" >> $in
 
     cat "$in" |
       render_html_file "$3" \

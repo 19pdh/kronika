@@ -16,4 +16,4 @@ for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
 done
 echo "</div>" >> wpisy/kronika.html
 
-./ssg5 wpisy dest "19pdh" "https://19.niedzwiedzinski.cyou"
+./ssg5 wpisy dest "19 PDH Puszcza" "https://19.niedzwiedzinski.cyou"
