@@ -1,10 +1,9 @@
 ---
-title: Chrzest
-author: Franciszek Kieliszewski
-date: 2020-07-11T18:39:41.458Z
 category:
   - oboz2020
 ---
+
+# Chrzest
 
 Noc 11-12.07.2020 | Franciszek Kieliszewski
 

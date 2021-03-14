@@ -1,10 +1,9 @@
 ---
-title: Chrzest namiotu Jerzego
-author: Kielon
-date: 2020-07-13T00:00:00.000Z
 category:
   - oboz2020
 ---
+
+# Chrzest namiotu Jerzego
 
 13.07.2020 | Kielon
 

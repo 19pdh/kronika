@@ -1,12 +1,11 @@
 ---
-title: Przyroda nad jeziorem Sporym
-author: Filip Olszewski
-date: 2020-09-14T20:34:01.740Z
 category:
   - oboz2020
-image: >-
-  https://lh4.googleusercontent.com/fCOriq87EZtoWbXKhVQdgbsKnsl33fVsDrm-b9eu6UwtHun8qSbVxrzjfX3ki1FooO1OJ5JpZZOPEaE5XrS97qFq0g6sLAZd2NUyPykIpSa9Ssy5qnPn71k7vmZ4urTSipCXQ0ez
 ---
+
+![](https://lh4.googleusercontent.com/fCOriq87EZtoWbXKhVQdgbsKnsl33fVsDrm-b9eu6UwtHun8qSbVxrzjfX3ki1FooO1OJ5JpZZOPEaE5XrS97qFq0g6sLAZd2NUyPykIpSa9Ssy5qnPn71k7vmZ4urTSipCXQ0ez)
+
+# Przyroda nad jeziorem Sporym
 
 14.09.2020 | Filip Olszewski
 

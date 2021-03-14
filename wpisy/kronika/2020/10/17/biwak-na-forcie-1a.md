@@ -1,10 +1,6 @@
----
-title: Biwak na forcie 1A
-author: Antoni Dąbrowski
-date: 2020-10-17T19:14:52.617Z
-image: >-
-  https://lh4.googleusercontent.com/uDbrigtJ46xmiYDcTeRV1LzGe7lUx65SGdik88BNied7IGe7gf9iEHBFm3PpW2rsqkooZanA4UFebGjneq5aiImS37HOJe5JVT7twGjMbR51OL4xxQhGjEfjZRtpTzGpViyF6LAu
----
+![Nasze obozowisko](https://lh4.googleusercontent.com/uDbrigtJ46xmiYDcTeRV1LzGe7lUx65SGdik88BNied7IGe7gf9iEHBFm3PpW2rsqkooZanA4UFebGjneq5aiImS37HOJe5JVT7twGjMbR51OL4xxQhGjEfjZRtpTzGpViyF6LAu)
+
+# Biwak na forcie 1A
 
 04-06.09.2020 | Antoni Dąbrowski
 
