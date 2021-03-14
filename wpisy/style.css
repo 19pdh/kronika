@@ -74,12 +74,18 @@ main img {
   width: 100%;
 }
 
-article {
+article.kronika {
   text-align: left;
 }
 
+article,
+.content {
+  max-width: 80ex;
+  line-height: 1.5em;
+}
+
 header > *,
-main,
+article,
 footer > * {
   max-width: 80ex;
   margin: 0 auto;

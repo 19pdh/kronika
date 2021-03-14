@@ -8,16 +8,46 @@ mkdir dest
 export PATH="$PWD/.jekyll-cache:$PATH"
 ./tools/compile
 
+
+function post_link() {
+  path=$1
+  title=$2
+  photo=$3
+  description=$4
+  cat << EOF
+<div class="post-link">
+  <a href="$path">
+    <div>
+      <div class="image" style="background-image: url('$photo')"></div>
+      <div class="post-container">
+        <h4 class="post-title">$title</h4>
+        <p class="post-description">$description</p>
+      </div>
+    </div>
+  </a>
+</div>
+EOF
+}
+
 cat > wpisy/kronika.html << EOF
+<link href="/kronika.css" rel="stylesheet">
 <h2>Ostatnie wpisy</h2>
 
 <a href="rss.xml"><img alt="" src="/assets/rss.svg" style="height:1em">RSS</a>
-<div>
+<div class="content post-list">
 EOF
 
+i=0
 for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
   path=`echo $f | sed 's/wpisy//;s/.md//'`
-  echo "<a href=\"$path\"><div>$path</div></a>" >> wpisy/kronika.html
+  title=`grep "^# " $f | head -n 1 | cut -c 2-`
+  photo=`grep "!\[.*\]\(.*\)" $f | head -n 1 | cut -d "(" -f2 | cut -d ")" -f1`
+  [ -z $photo ] && photo="/assets/default_tree.jpg"
+  description=`grep -E "^[A-Z]" $f | grep -v "|" | head -n 1 | cut -d" " -f1-30`
+  post_link "$path" "$title" "$photo" "$description" >> wpisy/kronika.html
+  [ $i -lt 4 ] && \
+    # post_link "$path" "$title" "$photo" "$description" >> wpisy/index.md && \
+    i=$(($i+1))
 done
 echo "</div>" >> wpisy/kronika.html
 
