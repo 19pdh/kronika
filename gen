@@ -1,13 +1,36 @@
 #!/bin/sh
 
+TITLE="19 PDH Puszcza"
+URL="https://nojs--api-puszcza.netlify.app"
+DESCRIPTION=""
+
 rm -r dest || true
 mkdir dest
 
 # This is useful when deploying on netlify. Thanks to storing compiled binaries
 # in this folder they will be cached and restored.
-export PATH="$PWD/.jekyll-cache:$PATH"
+export PATH="$PWD/.jekyll-cache:$PWD/tools:$PATH"
 ./tools/compile
 
+post_rss() {
+  path="$URL$1"
+  title=$2
+  photo=$3
+  description=$4
+  file=$5
+  date=`git log -n 1 --date="format:%Y-%m-%dT%H:%M:%SZ" --pretty=format:'%ad' -- $file`
+  cat << EOF
+  <item>
+    <guid>$path</guid>
+    <link>$path</link>
+    <pubDate>$date</pubDate>
+    <title>$title</title>
+    <description><![CDATA[
+    $(lowdown-f $file)
+    ]]></description>
+  </item>
+EOF
+}
 
 post_link() {
   path=$1
@@ -33,8 +56,20 @@ cat > wpisy/kronika.html << EOF
 <link href="/kronika.css" rel="stylesheet">
 <h2>Ostatnie wpisy</h2>
 
-<a href="rss.xml"><img alt="" src="/assets/rss.svg" style="height:1em">RSS</a>
+<a href="/kronika/rss.xml"><img alt="" src="/assets/rss.svg" style="height:1em">RSS</a>
 <div class="content post-list">
+EOF
+
+mkdir -p dest/kronika
+cat > dest/kronika/rss.xml << EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="$URL/kronika/rss.xml" rel="self" type="application/rss+xml" />
+<title>$TITLE</title>
+<description>$DESCRIPTION</description>
+<link>$URL</link>
+<lastBuildDate>$(date -R)</lastBuildDate>
 EOF
 
 i=0
@@ -45,12 +80,14 @@ for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
   [ -z $photo ] && photo="/assets/default_tree.jpg"
   description=`grep -E "^[A-Z]" $f | grep -v "|" | head -n 1 | cut -d" " -f1-30`
   post_link "$path" "$title" "$photo" "$description" >> wpisy/kronika.html
-  [ $i -lt 4 ] && \
+  [ $i -lt 20 ] && \
+    post_rss "$path" "$title" "$photo" "$description" "$f" >> dest/kronika/rss.xml
+  # [ $i -lt 4 ] && \
     # post_link "$path" "$title" "$photo" "$description" >> wpisy/index.md && \
-    i=$(($i+1))
+  i=$(($i+1))
 done
 echo "</div>" >> wpisy/kronika.html
+echo "</channel></rss>" >> dest/kronika/rss.xml
 
-./ssg5 wpisy dest "19 PDH Puszcza" "https://19.niedzwiedzinski.cyou"
+./ssg5 wpisy dest "$TITLE" "$URL"
 cp -r static/* dest
-./tools/rssg dest/kronika/index.html "19 PDH Puszcza" > dest/rss.xml
