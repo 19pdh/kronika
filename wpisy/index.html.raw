@@ -50,4 +50,9 @@
 
 <h1>19 PDH Puszcza</h1>
 
-Lorem ipsum
+<div class="content" style="padding: 4ex 0; display: flex">
+<div style="flex: 50%"><img src="assets/naszywka.png" height="240"></div>
+<div style="flex: 50%; text-align: left">
+O drużynie słów kilka, ale teraz nie mam weny więc jest te pare słów aby zapełnić lukę.
+</div>
+</div>

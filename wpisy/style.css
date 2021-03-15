@@ -123,9 +123,9 @@ article.kronika {
 
 article,
 .content {
-  padding-top: 4ex!important;
   max-width: 80ex;
   line-height: 1.5em;
+  margin: 0 auto;
 }
 
 header > *,
