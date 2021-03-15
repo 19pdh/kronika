@@ -26,7 +26,7 @@ post_rss() {
     <pubDate>$date</pubDate>
     <title>$title</title>
     <description><![CDATA[
-    $(lowdown-f $file)
+    $(./tools/lowdown-f $file)
     ]]></description>
   </item>
 EOF

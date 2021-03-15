@@ -201,7 +201,7 @@ render_md_files_lowdown() {
       echo "<article class="kronika">" > $in || \
       echo "<article>" > $in
 
-    lowdown-f "$1/$f" >> $in && \
+    ./tools/lowdown-f "$1/$f" >> $in && \
     echo "</article>" >> $in
 
     cat "$in" |
