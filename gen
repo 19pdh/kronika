@@ -56,7 +56,7 @@ cat > wpisy/kronika.html << EOF
 <link href="/kronika.css" rel="stylesheet">
 <h2>Ostatnie wpisy</h2>
 
-<a href="/kronika/rss.xml"><img alt="" src="/assets/rss.svg" style="height:1em">RSS</a>
+<p><a href="/kronika/rss.xml"><img alt="" src="/assets/rss.svg" style="height:1em">RSS</a></p>
 <div class="content post-list">
 EOF
 
