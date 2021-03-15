@@ -38,8 +38,10 @@ html, body {
   color: var(--primary);
 }
 
-a.button {
+a.button:link,
+a.button:visited {
   text-decoration: none;
+  color: #fff;
 }
 
 a.button:hover {
