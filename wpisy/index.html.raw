@@ -2,7 +2,7 @@
 .joinus {
   position: relative;
   top: -10px;
-  width: 100vw;
+  width: 100%;
   padding: 160px 20%;
   background-image: url(/assets/bg.jpg);
   background-size: cover;
@@ -50,4 +50,4 @@
 
 <h1>19 PDH Puszcza</h1>
 
-<a href="/kronika">Nasza kronika</a>
+Lorem ipsum

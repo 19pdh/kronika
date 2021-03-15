@@ -72,6 +72,13 @@ cat > dest/kronika/rss.xml << EOF
 <lastBuildDate>$(date -R)</lastBuildDate>
 EOF
 
+cp wpisy/index.html.raw wpisy/index.html
+cat >> wpisy/index.html << EOF
+<link href="/kronika.css" rel="stylesheet">
+<h2>Ostatnie wpisy z kroniki</h2>
+<div class="content post-list">
+EOF
+
 i=0
 for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
   path=`echo $f | sed 's/wpisy//;s/.md//'`
@@ -83,12 +90,15 @@ for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
   post_link "$path" "$title" "$photo" "$description" >> wpisy/kronika.html
   [ $i -lt 20 ] && \
     post_rss "$path" "$title" "$photo" "$description" "$f" >> dest/kronika/rss.xml
-  # [ $i -lt 4 ] && \
-    # post_link "$path" "$title" "$photo" "$description" >> wpisy/index.md && \
+  [ $i -lt 4 ] && \
+    post_link "$path" "$title" "$photo" "$description" >> wpisy/index.html && \
   i=$(($i+1))
 done
 echo "</div>" >> wpisy/kronika.html
+echo "</div><a href=\"/kronika\">Czytaj więcej...</a>" >> wpisy/index.html
 echo "</channel></rss>" >> dest/kronika/rss.xml
 
 ./ssg5 wpisy dest "$TITLE" "$URL"
+rm wpisy/index.html
+rm dest/index.html.raw
 cp -r static/* dest
