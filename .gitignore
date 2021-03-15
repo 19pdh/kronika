@@ -12,5 +12,5 @@ node_modules
 package-lock.json
 *.in
 
-lowdown*
-cpio*
+/lowdown*
+/cpio*
