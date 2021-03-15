@@ -79,6 +79,7 @@ for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
   photo=`grep "!\[.*\]\(.*\)" $f | head -n 1 | cut -d "(" -f2 | cut -d ")" -f1`
   [ -z $photo ] && photo="/assets/default_tree.jpg"
   description=`grep -E "^[A-Z]" $f | grep -v "|" | head -n 1 | cut -d" " -f1-30`
+  categories=`sed -n '/---/,/---/p' $f | grep " - " | sed 's/[^a-zA-Z0-9]//g'`
   post_link "$path" "$title" "$photo" "$description" >> wpisy/kronika.html
   [ $i -lt 20 ] && \
     post_rss "$path" "$title" "$photo" "$description" "$f" >> dest/kronika/rss.xml
