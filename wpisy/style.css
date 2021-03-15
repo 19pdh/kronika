@@ -38,6 +38,26 @@ html, body {
   color: var(--primary);
 }
 
+a.button {
+  text-decoration: none;
+}
+
+a.button:hover {
+  color: #fff;
+}
+
+.button,
+button {
+  background-color: #507b34;
+  padding: 10px;
+  max-width: 150px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: inherit;
+}
+
 nav a {
   vertical-align: middle;
 }
@@ -108,7 +128,6 @@ article,
 header > *,
 article,
 footer > * {
-  max-width: 80ex;
   margin: 0 auto;
   width: 100%;
   padding: 1ex;
