@@ -123,6 +123,7 @@ article.kronika {
 
 article,
 .content {
+  padding-top: 4ex!important;
   max-width: 80ex;
   line-height: 1.5em;
 }
@@ -142,6 +143,7 @@ nav {
 }
 
 footer {
+  margin-top: 8ex;
   text-align: center;
   display: flex;
   flex-direction: column;
