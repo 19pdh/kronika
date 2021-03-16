@@ -27,10 +27,26 @@
   font-size: 24px;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+  padding: 4ex 2ex;
+}
+
+.about > div {
+  padding: 1ex;
+}
+
 @media (max-width: 420px) {
   .joinus {
     align-items: center;
   }
+}
+@media (max-width: 540px) {
+  .about {
+    flex-direction: column;
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,9 +66,9 @@
 
 <h1>19 PDH Puszcza</h1>
 
-<div class="content" style="padding: 4ex 0; display: flex">
-<div style="flex: 50%"><img src="assets/naszywka.png" height="240"></div>
-<div style="flex: 50%; text-align: left">
-O drużynie słów kilka, ale teraz nie mam weny więc jest te pare słów aby zapełnić lukę.
-</div>
+<div class="about content">
+  <div style="flex: 40%"><img src="assets/naszywka.png" height="240"></div>
+  <div style="flex: 60%; text-align: left">
+    O drużynie słów kilka, ale teraz nie mam weny więc jest te pare słów aby zapełnić lukę.
+  </div>
 </div>

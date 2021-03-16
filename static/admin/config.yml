@@ -2,12 +2,12 @@ backend:
   name: git-gateway
 
 publish_mode: editorial_workflow
-display_url: https://puszcza.netlify.app
-site_url: https://puszcza.netlify.app
+site_url: https://nojs--api-puszcza.netlify.app
 logo_url: /19pdh.png
 locale: 'pl'
 
-media_folder: 'static/s'
+media_folder: 'wpisy/assets'
+public_folder: '/assets'
 
 collections:
   - name: posts
@@ -36,3 +36,21 @@ collections:
         name: body
         widget: markdown
         required: true
+  - name: "pages"
+    label: "Strony"
+    files:
+      - label: "Do pobrania"
+        name: "download"
+        file: "wpisy/do-pobrania.md"
+        fields:
+          - label: "Treść"
+            name: "body"
+            widget: "markdown"
+
+      - label: "Kontakt"
+        name: "contact"
+        files: "wpisy/kontakt.md"
+        fields:
+          - label: "Treść"
+            name: "body"
+            widget: "markdown"
