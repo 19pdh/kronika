@@ -101,6 +101,7 @@ header > div {
 
 .logo {
   font-size: 1.5em;
+  padding: 0 1ex;
 }
 
 nav a {
@@ -126,6 +127,7 @@ article,
   max-width: 80ex;
   line-height: 1.5em;
   margin: 0 auto;
+  padding: 1em;
 }
 
 header > *,
@@ -133,7 +135,6 @@ article,
 footer > * {
   margin: 0 auto;
   width: 100%;
-  padding: 1ex;
 }
 
 nav {

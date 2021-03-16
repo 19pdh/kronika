@@ -1,7 +1,7 @@
 <style>
 .joinus {
   position: relative;
-  top: -10px;
+  top: -8px;
   width: 100%;
   padding: 160px 20%;
   background-image: url(/assets/bg.jpg);
