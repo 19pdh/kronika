@@ -1,4 +1,5 @@
 ---
+title: Plakietki drużyny
 category:
   - oboz2020
 ---

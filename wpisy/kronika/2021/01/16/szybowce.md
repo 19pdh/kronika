@@ -1,3 +1,7 @@
+---
+title: Szybowiec
+---
+
 ![szybowiec](https://pics.niedzwiedzinski.cyou/puszcza.netlify.app/photo_2021-01-16_19-25-32.jpg)
 
 # Szybowce

@@ -1,4 +1,5 @@
 ---
+title: Chrzest namiotu Jerzego
 category:
   - oboz2020
 ---

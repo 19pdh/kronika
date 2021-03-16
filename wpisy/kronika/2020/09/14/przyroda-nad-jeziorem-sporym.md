@@ -1,4 +1,5 @@
 ---
+title: Przyroda nad jeziorem Sporym
 category:
   - oboz2020
 ---

@@ -1,3 +1,7 @@
+---
+title: Sylwester Bractwa Wędrowniczego
+---
+
 # Sylwester Bractwa Wędrowniczego
 
 01.01.2020 | Patryk Niedźwiedziński

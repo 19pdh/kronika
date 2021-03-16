@@ -1,3 +1,7 @@
+---
+title: Moja próba na ćwika
+---
+
 ![Zdjęcie Jody z Waldemarem Witkowskim](https://lh3.googleusercontent.com/pw/ACtC-3eR0bSYUr9edI6_yHi6a-vavpSWGBCRPBcCy60Z4gme72dAiTgbe-IKYIf-Qy_M6DNOYl2jSBbM_APLUaYCYbj45F5WnSLSRMQEYXsKNphUffEObIXsDxUdu2TPXpTSapi_lzaX9zoRfxP19rHa-oo_=w818-h378-no)
 
 # Moja próba na ćwika
