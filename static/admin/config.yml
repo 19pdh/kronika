@@ -37,6 +37,7 @@ collections:
         name: body
         widget: markdown
         required: true
+
   - name: "pages"
     label: "Strony"
     files:
@@ -51,6 +52,22 @@ collections:
       - label: "Kontakt"
         name: "contact"
         file: "wpisy/kontakt.md"
+        fields:
+          - label: "Treść"
+            name: "body"
+            widget: "markdown"
+
+      - label: "Kronika"
+        name: "chronicle"
+        file: "wpisy/kronika.html.raw"
+        fields:
+          - label: "Treść"
+            name: "body"
+            widget: "markdown"
+
+      - label: "Główna strona"
+        name: "index"
+        file: "wpisy/index.html.raw"
         fields:
           - label: "Treść"
             name: "body"
