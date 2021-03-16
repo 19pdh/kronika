@@ -14,7 +14,7 @@ collections:
   - name: posts
     label: 'Wpisy'
     label_singular: 'wpis'
-    folder: 'wpisy'
+    folder: 'wpisy/kronika'
     slug: '{{title}}'
     path: 'kronika/{{year}}/{{month}}/{{day}}/{{slug}}'
     preview_path: 'kronika/{{year}}/{{month}}/{{day}}/{{title}}'
