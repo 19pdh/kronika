@@ -49,7 +49,7 @@ collections:
 
       - label: "Kontakt"
         name: "contact"
-        files: "wpisy/kontakt.md"
+        file: "wpisy/kontakt.md"
         fields:
           - label: "Treść"
             name: "body"
