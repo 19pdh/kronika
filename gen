@@ -7,6 +7,8 @@ DESCRIPTION=""
 rm -r dest || true
 mkdir dest
 
+categories_dir=$(mktemp -d)
+
 # This is useful when deploying on netlify. Thanks to storing compiled binaries
 # in this folder they will be cached and restored.
 export PATH="$PWD/.jekyll-cache:$PWD/tools:$PATH"
@@ -88,6 +90,14 @@ for f in `find wpisy/kronika/20* -name '*.md' | sort -r`; do
   [ -z $photo ] && photo="/assets/default_tree.jpg"
   description=`grep -E "^[A-Z]" $f | grep -v "|" | head -n 1 | cut -d" " -f1-30`
   categories=`sed -n '/---/,/---/p' $f | grep " - " | sed 's/[^a-zA-Z0-9]//g'`
+
+  for c in "$categories"; do
+    [ -z $c ] && continue
+
+    [ -f "$categories_dir/$c" ] || echo '<link href="/kronika.css" rel="stylesheet"><div class="post-list">' > "$categories_dir/$c"
+    post_link "$path" "$title" "$photo" "$description" >> "$categories_dir/$c"
+  done
+
   post_link "$path" "$title" "$photo" "$description" >> wpisy/kronika.html
   [ $i -lt 20 ] && \
     post_rss "$path" "$title" "$photo" "$description" "$f" >> dest/kronika/rss.xml
@@ -98,8 +108,17 @@ done
 echo "</div>" >> wpisy/kronika.html
 echo "</div><a href=\"/kronika\">Czytaj więcej...</a>" >> wpisy/index.html
 echo "</channel></rss>" >> dest/kronika/rss.xml
+for cate in $categories_dir/*; do
+  c=$(basename $cate)
+  echo "</div>" >> "$cate"
+  [ -f "wpisy/c/$c.html.raw" ] && cp "wpisy/c/$c.html.raw" "wpisy/c/$c.html"
+  # [ -f "wpisy/c/$c.md.raw" ] && cp "wpisy/c/$c.md.raw" "wpisy/c/$c.md"
+  sed -e "/%posts%/r$cate" -i "wpisy/c/$c.html"
+done
 
 ./ssg5 wpisy dest "$TITLE" "$URL"
 rm wpisy/index.html
+rm wpisy/c/*.html
 rm dest/index.html.raw
+rm dest/c/*.raw
 cp -r static/* dest

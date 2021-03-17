@@ -1,0 +1,73 @@
+<style>
+@media all and (max-width: 560px) {
+  ul.troops {
+    flex-direction: column;
+  }
+}
+.troops {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+ul.troops > li {
+  margin: 0.5em 1em;
+}
+#map {
+  width: 100%;
+  height: 12em;
+}
+.story::before,
+.story::after {
+  content: '';
+  background-image: url('/assets/tomahawk.svg');
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  display: block;
+  top: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.story::after {
+  display: none;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipX;
+  -ms-filter: 'FlipX';
+}
+
+@media (min-width: 510px) {
+  .story::before,
+  .story::after {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+  }
+}
+</style>
+<div>
+  <div class="logo">
+    <img style="z-index: 1" src="/assets/2020.svg" alt="" />
+    <h1 style="z-index: 9">Obóz 2020</h1>
+  </div>
+  <ul class="troops">
+    <li>19 PDH Puszcza</li>
+    <li>7 PDH Binduga</li>
+    <li>7 PDH Watra</li>
+    <li>1 PDH</li>
+  </ul>
+</div>
+<iframe id="map" src="https://maps.google.com/maps?q=Jezioro%20Spore&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+<div style="width: 100%">
+  <h2 class="story" style="margin: 10vh 10vmin">
+    To się działo na obozie
+  </h2>
+  <div style="margin: 0 auto; max-width: 80ex">
+  <!--%posts%-->
+  </div>
+</div>
